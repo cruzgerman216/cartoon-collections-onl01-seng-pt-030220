@@ -7,7 +7,12 @@ i = 1
 end
 
 def summon_captain_planet(array)# code an argument here
+<<<<<<< HEAD
   array.map {|n| "#{n.capitalize}!"}
+=======
+  str = "hey"
+  return str[i]
+>>>>>>> 3e26501c6336a634e0d564979d07a1156deabe24
 end
 
 def long_planeteer_calls(array)# code an argument here
@@ -26,5 +31,11 @@ def find_the_cheese(array)# code an argument here
   end
   return str
 end
+<<<<<<< HEAD
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 find_the_cheese(soup)
+=======
+
+
+summon_captain_planet([])
+>>>>>>> 3e26501c6336a634e0d564979d07a1156deabe24
